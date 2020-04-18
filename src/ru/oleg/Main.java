@@ -16,9 +16,9 @@ public class Main {
             System.out.println(rabotnik.toString());
         }
 
-        for (Employee rabotnik : staff) {
+        /*for (Employee rabotnik : staff) {
             System.out.println(rabotnik.toString());
-        }
+        }*/
     }
 
 }
