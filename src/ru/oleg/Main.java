@@ -11,10 +11,10 @@ public class Main {
         staff[1] = john;
         staff[2] = dick;
 
-        for (int i = 0; i < staff.length; i++) {
+        /*for (int i = 0; i < staff.length; i++) {
             Employee rabotnik = staff[i];
             System.out.println(rabotnik.toString());
-        }
+        }*/
 
         /*for (Employee rabotnik : staff) {
             System.out.println(rabotnik.toString());
