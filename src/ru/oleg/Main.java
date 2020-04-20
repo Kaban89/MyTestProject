@@ -3,22 +3,23 @@ package ru.oleg;
 public class Main {
 
     public static void main(String[] args) {
-        Employee mike = new Employee("Mike", 20000);
-        Employee john = new Employee("John", 150000);
-        Employee dick = new Employee("Dick", 23000);
-        Employee[] staff = new Employee[3];
-        staff[0] = mike;
-        staff[1] = john;
-        staff[2] = dick;
+        Employee[] nameAuto = new Employee[5];
+        Employee vaz = new Employee("Vaz", 1999, 30000);
+        Employee mazda = new Employee("Mazda", 2003, 100000);
+        Employee bmw = new Employee("Bmw", 2005, 150000);
+        Employee gaz = new Employee("Gaz", 2002, 50000);
+        Employee rover = new Employee("Rover", 2010, 200000);
 
-        for (int i = 0; i < staff.length; i++) {
-            Employee rabotnik = staff[i];
-            System.out.println(rabotnik.toString());
+        nameAuto[0] = vaz;
+        nameAuto[1] = mazda;
+        nameAuto[2] = bmw;
+        nameAuto[3] = gaz;
+        nameAuto[4] = rover;
+
+        for (int i = 0; i < nameAuto.length; i++) {
+            Employee buy = nameAuto[i];
+            System.out.println(buy.getSalary());
         }
-
-        /*for (Employee rabotnik : staff) {
-            System.out.println(rabotnik.toString());
-        }*/
     }
 
 }
