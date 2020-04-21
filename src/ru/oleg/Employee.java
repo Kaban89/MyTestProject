@@ -13,19 +13,27 @@ public class Employee {
 
     String getName() {
         if (salary > 100000) {
-            return "Mr." + name;
+            return "Mr. " + name;
         }
         else {
         }
-        return "tazovoz" + name;
+        return "tazovoz " + name;
     }
 
-    double getYear() {
-        return year;
-    }
+    String getYear() {
+       if (year < 2000) {
+            return "koryto " + year;
+        } else {
+            return year;
+        }
 
+    }
     int getSalary() {
         return salary;
+    }
+
+     public String toString() {
+        return getName() + " : " + getYear() + " , " + getSalary();
     }
 }
 
