@@ -24,7 +24,7 @@ public class Employee {
        if (year < 2000) {
             return "koryto " + year;
         } else {
-            return year;
+            return "" + year;
         }
 
     }
