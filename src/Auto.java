@@ -1,8 +1,9 @@
 package ru.oleg;
 
-public class Main {
+public class Auto {
 
     public static void main(String[] args) {
+
         Employee[] nameAuto = new Employee[5];
         Employee vaz = new Employee("Vaz", 1999, 30000);
         Employee mazda = new Employee("Mazda", 2003, 110000);
