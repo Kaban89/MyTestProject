@@ -21,6 +21,11 @@ public class Auto {
             Employee buy = nameAuto[i];
             System.out.println(buy.toString());
         }
+        Person oleg = new Person("Oleg", 30, "Samara");
+        String result = oleg.writeMeLetter("Oleg");
+        String result1 = oleg.writeMeLetter("Michael");
+        System.out.println(result);
+        System.out.println(result1);
     }
 
 }
